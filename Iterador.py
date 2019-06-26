@@ -43,4 +43,4 @@ class DivisionIterator(object):
         self.myIter = iter(Empleado)
 
     def next(self):
-        return self.myIter.__next__()
+        return next(self.myIter)
